@@ -1,0 +1,39 @@
+div {
+	width: 150px;
+	height: 150px;
+	float: right;
+}
+
+/* poniendo una imagen como fondo
+de un div. los ".." son para 
+retroceder una carpeta, onda, este
+style está dentro de la carpeta
+css, pero las imágenes están en una
+carpeta contenida en la carpeta Floating*/
+#bb1{
+	background-image: url(../img/bb1.jpg);
+	background-size: 100%;
+}
+/* el background-size es
+para que la imagen de fondo abarque
+todo el div*/
+#bb2{
+	background-image: url(../img/bb2.jpg);
+	background-size: 100%;
+	float: left;
+}
+
+#bb3{
+	background-image: url(../img/bb3.jpg);
+	background-size: 100%;
+}
+
+#bb4{
+	background-image: url(../img/bb4.jpeg);
+	background-size: 100%;
+}
+
+#bb5 {
+	background-image: url(../img/bb5.jpg);
+	background-size: 100%;
+}
